@@ -46,3 +46,33 @@ Reglas mínimas para cambios en ParqueAndo:
 
 ## Licencia
 Definir licencia del proyecto (archivo `LICENSE`).
+
+## Trazabilidad y Control de Cambios
+ 
+El proyecto ParqueAndo utiliza el siguiente flujo:
+ 
+Issue → Branch → Commit (#ID) → Pull Request → Revisión → Merge a main → Release
+ 
+Convención de commits:
+
+- docs: ...
+
+- feat: ...
+
+- fix: ...
+
+- chore: ...
+
+- test: ...
+ 
+Ejemplo:
+
+docs: update README and checklist (#3)
+ 
+Reglas:
+
+- No se permite commit directo a main.
+
+- Todo cambio debe estar vinculado a un Issue.
+
+- Se requiere mínimo 1 aprobación antes de merge.
