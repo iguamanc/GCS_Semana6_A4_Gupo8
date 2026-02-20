@@ -1,0 +1,1 @@
+| CM-003 | 2026-02-19 | docs/BASELINE_S7.md | Doc | CHG-02 | Aprobado | v0.3.0 |
